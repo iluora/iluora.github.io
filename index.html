@@ -12,14 +12,59 @@
       name="keywords"
       content="Iluora, software, tools, craftsmanship, guidance, Unity asset, Fixify"
     />
+    <meta name="google-site-verification" content="3SlPdDNbsRvU_jyTnE_9ISgB74e5rwpmNC4fm5Zm4l0" />
+    
     <title>Iluora - Your Guiding Light</title>
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://iluora.github.io/" />
+    
+    <!-- Favicon (ajusta la ruta según corresponda) -->
+    <link rel="icon" href="resources/favicon.ico" type="image/x-icon" />
+    
     <!-- Link to external CSS -->
     <link rel="stylesheet" href="styles.css" />
+    
     <!-- Google Font for headings -->
     <link
       href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Iluora - Your Guiding Light" />
+    <meta
+      property="og:description"
+      content="Great tools empower creators. Our handcrafted and intuitive solutions illuminate your path."
+    />
+    <meta property="og:image" content="https://iluora.github.io/resources/logo.png" />
+    <meta property="og:url" content="https://iluora.github.io/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Iluora - Your Guiding Light" />
+    <meta
+      name="twitter:description"
+      content="Great tools empower creators. Our handcrafted and intuitive solutions illuminate your path."
+    />
+    <meta name="twitter:image" content="https://iluora.github.io/resources/logo.png" />
+
+    <!-- Schema.org JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Iluora",
+        "url": "https://iluora.github.io/",
+        "logo": "https://iluora.github.io/resources/logo.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "iluora.solutions@gmail.com",
+          "contactType": "customer support"
+        }
+      }
+    </script>
   </head>
   <body>
     <!-- Static background image (does not scroll) -->
@@ -33,20 +78,22 @@
         <div class="intro-bg"></div>
         <div class="intro-content">
           <!-- Header with brand name and logo aligned horizontally -->
-          <div class="intro-header">
-            <!--<h1>Iluora</h1>-->
+          <header class="intro-header">
+            <!-- Se incluye un h1, el cual puedes ocultar visualmente con CSS si lo prefieres -->
+            <h1 class="visually-hidden">Iluora - Your Guiding Light</h1>
             <img
               src="resources/logo.png"
               alt="Iluora Logo"
               class="intro-logo"
+              loading="lazy"
             />
-          </div>
+          </header>
           <h2>Your Guiding Light</h2>
           <p>
             Great tools empower creators.<br /><br />
-            Rooted in our core values of craftsmanship, care, and guidance,
-            our tools are designed to illuminate your path, ensuring you have
-            the right resources at every step of your journey.<br /><br />
+            Rooted in our core values of craftsmanship, care, and guidance, our
+            tools are designed to illuminate your path, ensuring you have the
+            right resources at every step of your journey.<br /><br />
             High-quality, handcrafted and intuitive solutions with meticulous
             attention to detail.
           </p>
@@ -57,34 +104,52 @@
       <section id="projects" class="section projects">
         <h2>Our Projects</h2>
         <div class="project-list">
-          <!-- Project Item: Fixify (add more .project-item blocks as needed) -->
+          <!-- Project Item: Fixify -->
           <div class="project-item">
             <div class="project-header">
               <img
                 src="resources/fixify/Fixify_image_logo.png"
                 alt="Fixify Logo"
                 class="project-logo"
+                loading="lazy"
               />
               <h3 class="project-title">Fixify</h3>
             </div>
-          
+
             <p>
-              Fixify is a powerful Unity Editor extension designed to analyze, diagnose, and optimize your Unity project. 
-              It helps developers maintain project health by identifying and fixing common issues such as missing references, unused assets, optimization problems, version control inconsistencies, and more.
-              With a clean and intuitive interface, Fixify provides detailed diagnostics and repair tools, making it an essential asset for Unity projects of all sizes.
+              Fixify is a powerful Unity Editor extension designed to analyze,
+              diagnose, and optimize your Unity project. It helps developers
+              maintain project health by identifying and fixing common issues such
+              as missing references, unused assets, optimization problems, version
+              control inconsistencies, and more. With a clean and intuitive
+              interface, Fixify provides detailed diagnostics and repair tools,
+              making it an essential asset for Unity projects of all sizes.
             </p>
-          
+
             <div class="project-images">
-              <img src="resources/fixify/Fixify_image_welcome.png" alt="Fixify Screenshot 1" />
-              <img src="resources/fixify/Fixify_image_diagnostic.png" alt="Fixify Screenshot 2" />
-              <img src="resources/fixify/Fixify_image_reapir.png" alt="Fixify Screenshot 1" />
+              <img
+                src="resources/fixify/Fixify_image_welcome.png"
+                alt="Fixify - Welcome Screen"
+                loading="lazy"
+              />
+              <img
+                src="resources/fixify/Fixify_image_diagnostic.png"
+                alt="Fixify - Diagnostics"
+                loading="lazy"
+              />
+              <img
+                src="resources/fixify/Fixify_image_reapir.png"
+                alt="Fixify - Reparation"
+                loading="lazy"
+              />
             </div>
-          
+
             <a
               href="#"
               class="project-button"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="View Fixify on Unity Asset Store"
             >View on Unity Asset Store</a>
           </div>
           <!-- Future projects can be added here -->
@@ -95,29 +160,45 @@
       <section id="contact" class="section contact">
         <h2>Contact</h2>
         <p>
-          <!--Email:-->
-          <a href="mailto:iluora.solutions@gmail.com"
-            >iluora.solutions@gmail.com</a
-          >
+          <a href="mailto:iluora.solutions@gmail.com">
+            iluora.solutions@gmail.com
+          </a>
         </p>
-        <!-- A simple mailto form (note: mailto forms are not fully reliable, but work as a basic solution) -->
+        <!-- Contact form with labels for better accessibility -->
         <form
           action="mailto:iluora.solutions@gmail.com"
           method="POST"
           enctype="text/plain"
         >
-          <input type="text" name="name" placeholder="Your Name" required />
-          <input
-            type="email"
-            name="email"
-            placeholder="Your Email"
-            required
-          />
-          <textarea
-            name="message"
-            placeholder="Your Message"
-            required
-          ></textarea>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your Name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+          </div>
           <button type="submit">Send</button>
         </form>
       </section>
