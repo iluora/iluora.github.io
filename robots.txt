@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://iluora.github.io/sitemap.xml
+Sitemap: https://iluora.com/sitemap.xml

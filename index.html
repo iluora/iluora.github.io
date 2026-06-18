@@ -1,63 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Meta tags for SEO and responsiveness -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Iluora software solutions - Your Guiding Light. Great tools empower creators. Our handcrafted and intuitive solutions illuminate your path."
+      content="Iluora builds handcrafted, intuitive tools for creators and merchants — Unity Editor extensions and Shopify apps designed to illuminate your path."
     />
     <meta
       name="keywords"
-      content="Iluora, software, tools, craftsmanship, guidance, Unity asset, Fixify"
+      content="Iluora, software, tools, Unity asset, Unity editor, Shopify app, inventory, Fixify, Voicefy, Restock Pilot"
     />
     <meta name="google-site-verification" content="3SlPdDNbsRvU_jyTnE_9ISgB74e5rwpmNC4fm5Zm4l0" />
 
-    <title>Iluora - Software Solutions</title>
-    
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://iluora.github.io/" />
-    
-    <!-- Favicon (ajusta la ruta según corresponda) -->
+    <title>Iluora — Software Solutions for Creators & Merchants</title>
+
+    <link rel="canonical" href="https://iluora.com/" />
     <link rel="icon" href="resources/favicon.ico" type="image/x-icon" />
-    
-    <!-- Link to external CSS -->
     <link rel="stylesheet" href="styles.css" />
-    
-    <!-- Google Font for headings -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Source+Code+Pro&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Source+Code+Pro:wght@400;600&display=swap"
       rel="stylesheet"
     />
 
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Iluora - Software Solutions" />
+    <!-- Open Graph -->
+    <meta property="og:title" content="Iluora — Software Solutions" />
     <meta
       property="og:description"
-      content="Great tools empower creators. Our handcrafted and intuitive solutions illuminate your path."
+      content="Handcrafted, intuitive tools for creators and merchants — Unity Editor extensions and Shopify apps."
     />
-    <meta property="og:image" content="https://iluora.github.io/resources/logo.png" />
-    <meta property="og:url" content="https://iluora.github.io/" />
+    <meta property="og:image" content="https://iluora.com/resources/logo.png" />
+    <meta property="og:url" content="https://iluora.com/" />
     <meta property="og:type" content="website" />
 
-    <!-- Twitter Card Meta Tags -->
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Iluora - Your Guiding Light" />
+    <meta name="twitter:title" content="Iluora — Your Guiding Light" />
     <meta
       name="twitter:description"
-      content="Great tools empower creators. Our handcrafted and intuitive solutions illuminate your path."
+      content="Handcrafted, intuitive tools for creators and merchants — Unity Editor extensions and Shopify apps."
     />
-    <meta name="twitter:image" content="https://iluora.github.io/resources/logo.png" />
+    <meta name="twitter:image" content="https://iluora.com/resources/logo.png" />
 
-    <!-- Schema.org JSON-LD Structured Data -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "Iluora",
-        "url": "https://iluora.github.io/",
-        "logo": "https://iluora.github.io/resources/logo.png",
+        "url": "https://iluora.com/",
+        "logo": "https://iluora.com/resources/logo.png",
         "contactPoint": {
           "@type": "ContactPoint",
           "email": "iluora.solutions@gmail.com",
@@ -67,19 +58,27 @@
     </script>
   </head>
   <body>
-    <!-- Static background image (does not scroll) -->
     <div class="background"></div>
 
-    <!-- Main content panel with transparency and blur effect -->
-    <div class="content-panel">
-      <!-- Section 1: Introduction -->
+    <!-- Sticky top navigation -->
+    <nav class="site-nav">
+      <a href="#top" class="nav-brand">
+        <img src="resources/logo.png" alt="Iluora" class="nav-logo" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="#unity">Unity Tools</a></li>
+        <li><a href="#shopify">Shopify Apps</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="content-panel" id="top">
+      <!-- Intro -->
       <section id="introduction" class="section intro">
-        <!-- Blurred background image for the introduction section -->
         <div class="intro-bg"></div>
         <div class="intro-content">
-          <!-- Header with brand name and logo aligned horizontally -->
           <header class="intro-header">
-            <h1 class="visually-hidden">Iluora - Software Solutions</h1>
+            <h1 class="visually-hidden">Iluora — Software Solutions</h1>
             <img
               src="resources/logo.png"
               alt="Iluora Logo"
@@ -90,21 +89,27 @@
           <h2>Your Guiding Light</h2>
           <p>
             Great tools empower creators.<br /><br />
-            Rooted in our core values of craftsmanship, care, and guidance, our
-            tools are designed to illuminate your path, ensuring you have the
-            right resources at every step of your journey.<br /><br />
-            High-quality, handcrafted and intuitive solutions with meticulous
-            attention to detail.
+            Rooted in craftsmanship, care, and guidance, our tools are designed
+            to illuminate your path — from the Unity Editor to your Shopify
+            store. High-quality, handcrafted and intuitive solutions, with
+            meticulous attention to detail.
           </p>
+          <div class="intro-cta">
+            <a href="#unity" class="ghost-button">Unity Tools</a>
+            <a href="#shopify" class="ghost-button">Shopify Apps</a>
+          </div>
         </div>
       </section>
 
-      <!-- Section 2: Our Projects -->
-      <section id="projects" class="section projects">
-        <h2>Our Projects</h2>
+      <!-- Unity Asset Store tools -->
+      <section id="unity" class="section projects">
+        <h2 class="section-title">Unity Asset Store</h2>
+        <p class="section-subtitle">
+          Editor extensions that make building games faster and cleaner.
+        </p>
         <div class="project-list">
-          <!-- Project Item: Fixify -->
-          <div class="project-item">
+          <!-- Fixify -->
+          <article class="project-item">
             <div class="project-header">
               <img
                 src="resources/fixify/Fixify_image_logo.png"
@@ -112,63 +117,37 @@
                 class="project-logo"
                 loading="lazy"
               />
-              <h3 class="project-title">Fixify</h3>
+              <div class="project-heading">
+                <h3 class="project-title">Fixify</h3>
+                <span class="project-badge">Unity Editor extension</span>
+              </div>
             </div>
-
-            <!--<p>
-              Fixify is a powerful Unity Editor extension designed to analyze,
-              diagnose, and optimize your Unity project. It helps developers
-              maintain project health by identifying and fixing common issues such
-              as missing references, unused assets, optimization problems, version
-              control inconsistencies, and more. With a clean and intuitive
-              interface, Fixify provides detailed diagnostics and repair tools,
-              making it an essential asset for Unity projects of all sizes.
-            </p>-->
-
-            <!-- Banner Image -->
-            <!--<div class="project-banner">
-              <img src="resources/fixify/Fixify_Banner.png" alt="Fixify Banner" loading="lazy" />
-            </div>-->
-
-            <!-- YouTube Video Embed -->
+            <p class="project-desc">
+              Analyze, diagnose, and optimize your Unity project. Fixify finds
+              missing references, unused assets, and common issues — then helps
+              you fix them, all from one clean Editor window.
+            </p>
             <div class="project-video">
-              <iframe 
-                src="https://www.youtube.com/embed/ayi3uOtxNGU" 
-                title="YouTube video player" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
-              </iframe>
+              <iframe
+                src="https://www.youtube.com/embed/ayi3uOtxNGU"
+                title="Fixify — demo video"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
             </div>
-
-            <!--<div class="project-images">
-              <img
-                src="resources/fixify/Fixify_image_welcome.png"
-                alt="Fixify - Welcome Screen"
-                loading="lazy"
-              />
-              <img
-                src="resources/fixify/Fixify_image_diagnostic.png"
-                alt="Fixify - Diagnostics"
-                loading="lazy"
-              />
-              <img
-                src="resources/fixify/Fixify_image_reapir.png"
-                alt="Fixify - Reparation"
-                loading="lazy"
-              />
-            </div>-->
-
             <a
               href="https://assetstore.unity.com/packages/slug/310942"
               class="project-button"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="View Fixify on Unity Asset Store"
-            >View on Unity Asset Store</a>
-          </div>
-          <!-- Project Item: Voicefy -->
-          <div class="project-item">
+              >View on Unity Asset Store</a
+            >
+          </article>
+
+          <!-- Voicefy -->
+          <article class="project-item">
             <div class="project-header">
               <img
                 src="resources/voicefy/Voicefy_image_logo.png"
@@ -176,92 +155,114 @@
                 class="project-logo"
                 loading="lazy"
               />
-              <h3 class="project-title">Voicefy</h3>
+              <div class="project-heading">
+                <h3 class="project-title">Voicefy</h3>
+                <span class="project-badge">Unity Editor extension</span>
+              </div>
             </div>
-
-            <!--<p>
-              Generate natural or retro-style voiceovers in Unity using AI. Turn text into expressive voices — fast, offline, multilingual. 
-              The easiest way to voice your game.
-              Voicefy – AI Voice Generation Inside Unity
-              Turn your text into expressive, multilingual voiceovers — all within the Unity Editor.
-              Voicefy is the ultimate tool for developers who want to bring their games to life with realistic, customizable AI voices. 
-              Generate localized voice lines, apply emotional tone, and even create Animal Crossing-style speech — all directly in Unity, with no internet connection required.
-            </p>-->
-
-            <!-- Banner Image -->
-            <!--<div class="project-banner">
-              <img src="resources/fixify/Voicefy_Banner.png" alt="Voicefy Banner" loading="lazy" />
-            </div>-->
-
-            <!-- YouTube Video Embed -->
+            <p class="project-desc">
+              Turn text into expressive, multilingual AI voiceovers right inside
+              the Unity Editor. Generate natural or retro-style voices — fast,
+              offline, and game-ready.
+            </p>
             <div class="project-video">
-              <iframe 
-                src="https://www.youtube.com/embed/hZfzCBNy4cM?si=K-CvTdCE0DMCq_Ba" 
-                title="YouTube video player" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
-              </iframe>
+              <iframe
+                src="https://www.youtube.com/embed/hZfzCBNy4cM?si=K-CvTdCE0DMCq_Ba"
+                title="Voicefy — demo video"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
             </div>
-
             <a
               href="https://assetstore.unity.com/packages/slug/323096"
               class="project-button"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="View Voicefy on Unity Asset Store"
-            >View on Unity Asset Store</a>
-          </div>
-          <!-- Future projects can be added here -->
+              >View on Unity Asset Store</a
+            >
+          </article>
         </div>
       </section>
 
-      <!-- Section 3: Contact -->
-      <section id="contact" class="section contact">
-        <h2>Contact</h2>
-        <p>
-          <a href="mailto:iluora.solutions@gmail.com">
-            iluora.solutions@gmail.com
-          </a>
+      <!-- Shopify apps -->
+      <section id="shopify" class="section projects">
+        <h2 class="section-title">Shopify Apps</h2>
+        <p class="section-subtitle">
+          Practical apps for merchants who run real stores.
         </p>
-        <!-- Contact form with labels for better accessibility -->
+        <div class="project-list">
+          <!-- Restock Pilot -->
+          <article class="project-item">
+            <div class="project-header">
+              <div class="project-logo project-logo--placeholder" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="44" height="44" fill="none"
+                     stroke="currentColor" stroke-width="1.8"
+                     stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
+                  <polyline points="3.27 6.96 12 12.01 20.73 6.96" />
+                  <line x1="12" y1="22.08" x2="12" y2="12" />
+                </svg>
+              </div>
+              <div class="project-heading">
+                <h3 class="project-title">Restock Pilot</h3>
+                <span class="project-badge">Shopify app · Retail &amp; POS</span>
+              </div>
+            </div>
+            <p class="project-desc">
+              Inventory forecasting and purchase orders for Shopify retail &amp;
+              POS. Know what to reorder, how much, and when — create and send
+              purchase orders, and rescue your supplier and PO data from Stocky
+              before it shuts down.
+            </p>
+            <ul class="feature-list">
+              <li>Smart restock suggestions by location</li>
+              <li>Suppliers &amp; purchase orders (PDF / CSV + receive)</li>
+              <li>Low-stock email alerts</li>
+              <li>Stocky data migration</li>
+            </ul>
+            <a
+              href="#contact"
+              class="project-button project-button--soon"
+              aria-label="Restock Pilot — coming soon to the Shopify App Store"
+              >Coming soon to the Shopify App Store</a
+            >
+          </article>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section contact">
+        <h2 class="section-title">Contact</h2>
+        <p class="contact-email">
+          <a href="mailto:iluora.solutions@gmail.com">iluora.solutions@gmail.com</a>
+        </p>
         <form action="https://formspree.io/f/xeoellvj" method="POST">
           <div class="form-group">
             <label for="name">Name</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="Your name here"
-              required
-            />
+            <input type="text" id="name" name="name" placeholder="Your name here" required />
           </div>
           <div class="form-group">
             <label for="email">Email</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Your email here"
-              required
-            />
+            <input type="email" id="email" name="email" placeholder="Your email here" required />
           </div>
           <div class="form-group">
             <label for="message">Message</label>
-            <textarea
-              id="message"
-              name="message"
-              placeholder="Your message here"
-              required
-            ></textarea>
+            <textarea id="message" name="message" placeholder="Your message here" required></textarea>
           </div>
           <button type="submit">Send</button>
         </form>
       </section>
 
-      <!-- Section 4: Footer -->
       <footer class="site-footer">
-        <p>&copy; 2025 Iluora. All rights reserved.</p>
+        <nav class="footer-links">
+          <a href="#unity">Unity Tools</a>
+          <a href="#shopify">Shopify Apps</a>
+          <a href="/restock-pilot/privacy">Privacy Policy</a>
+          <a href="mailto:iluora.solutions@gmail.com">Contact</a>
+        </nav>
+        <p>&copy; 2026 Iluora. All rights reserved.</p>
       </footer>
     </div>
   </body>
