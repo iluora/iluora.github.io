@@ -1,0 +1,9 @@
+poReference,supplier,date,status,productTitle,sku,qty,cost
+PO-1042,Highland Coffee Roasters,2026-05-12,received,House Blend Coffee 250g,HBC-250,48,6.50
+PO-1042,Highland Coffee Roasters,2026-05-12,received,Espresso Roast 1kg,ESP-1K,24,18.00
+PO-1043,Albion Tea Company,2026-05-20,received,Earl Grey Tea 100g,EGT-100,36,3.20
+PO-1043,Albion Tea Company,2026-05-20,received,Sencha Green Tea 100g,SEN-100,24,3.80
+PO-1051,Brew Supplies Co.,2026-06-02,sent,Cold Brew Bottle 330ml,CB-330,72,1.80
+PO-1051,Brew Supplies Co.,2026-06-02,sent,Coffee Filters 100ct,FIL-100,48,2.10
+PO-1052,Terra Ceramics,2026-06-08,draft,Ceramic Mug - White,MUG-WHT,24,4.00
+PO-1052,Terra Ceramics,2026-06-08,draft,Ceramic Mug - Black,MUG-BLK,24,4.00
