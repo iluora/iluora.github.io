@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Getting started with Restock Pilot — import your Stocky data, read the reorder panel, manage suppliers and purchase orders, and set up low-stock alerts."
+    />
+    <title>Getting started — Restock Pilot | Iluora</title>
+    <link rel="canonical" href="https://iluora.com/restock-pilot/getting-started" />
+    <link rel="icon" href="../../resources/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../../styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="background"></div>
+
+    <main class="doc-page">
+      <a href="/" class="doc-back">&larr; Back to Iluora</a>
+
+      <h1>Getting started with Restock Pilot</h1>
+      <p class="doc-updated">Last updated: 19 June 2026</p>
+
+      <p>
+        Restock Pilot helps retail and POS merchants know what to reorder, how
+        much, and from which supplier — and rescues the suppliers and purchase
+        orders that Stocky won't let you export. This guide walks you through
+        setup in a few minutes.
+      </p>
+
+      <h2>1. Install and open the app</h2>
+      <p>
+        Install Restock Pilot from the Shopify App Store and approve the plan to
+        start your free trial. After installing, open the app from your Shopify
+        admin under <strong>Apps &rarr; Restock Pilot</strong>. Everything
+        happens inside your Shopify admin — there's nothing for your customers
+        to see.
+      </p>
+
+      <h2>2. Bring in your data from Stocky (or start fresh)</h2>
+      <p>
+        Stocky doesn't let you export suppliers or purchase orders. Restock
+        Pilot imports them from CSV so you don't lose that history.
+      </p>
+      <ul>
+        <li>
+          Go to <strong>Import</strong>. Import your <strong>suppliers</strong>
+          first, then your <strong>purchase orders</strong> (orders are matched
+          to suppliers by name, so suppliers must exist first).
+        </li>
+        <li>
+          Each importer has a <strong>downloadable template</strong> so you can
+          see the exact columns. Any rows with problems are reported line by
+          line — the rest still import.
+        </li>
+        <li>
+          No Stocky data? You can skip this and add suppliers manually in
+          step&nbsp;5.
+        </li>
+      </ul>
+
+      <h2>3. Set your forecasting rules</h2>
+      <p>
+        Open <strong>Settings</strong> to tune how suggestions are calculated:
+      </p>
+      <ul>
+        <li><strong>Sales window</strong> — how many days of recent sales to measure demand (default 30).</li>
+        <li><strong>Default lead time</strong> — days between ordering and receiving, used when a supplier has none set.</li>
+        <li><strong>Safety stock</strong> — a buffer kept on hand to avoid stockouts.</li>
+        <li><strong>Review period</strong> — how far ahead each order should cover.</li>
+        <li><strong>Alert email</strong> — where low-stock emails are sent.</li>
+      </ul>
+
+      <h2>4. Read the reorder panel</h2>
+      <p>
+        The home screen scans your tracked products and flags what needs
+        attention. For each product you'll see:
+      </p>
+      <ul>
+        <li><strong>Available</strong> — current stock on hand.</li>
+        <li><strong>Incoming</strong> — units already on the way.</li>
+        <li><strong>Sales/day</strong> — sales velocity over your sales window.</li>
+        <li><strong>Reorder point</strong> — the level at which you should reorder.</li>
+        <li><strong>Suggested</strong> — how many units to order now.</li>
+        <li><strong>Status</strong> — <em>Low</em> (urgent) or <em>Reorder</em> (time to top up).</li>
+      </ul>
+      <p>
+        Products are inventory-tracked items with recent sales — suggestions
+        appear as your store accrues sales history.
+      </p>
+
+      <h2>5. Manage suppliers</h2>
+      <p>
+        Under <strong>Suppliers</strong> you can add or edit suppliers with
+        their contact details, lead time, minimum order quantity (MOQ) and
+        payment terms. Lead time and MOQ feed directly into the reorder
+        suggestions. A supplier that's linked to purchase orders can't be
+        deleted, so your order history stays intact.
+      </p>
+
+      <h2>6. Create and track purchase orders</h2>
+      <p>
+        Under <strong>Purchase orders &rarr; New</strong>, pick a supplier and
+        build the order:
+      </p>
+      <ul>
+        <li>Low-stock products come <strong>pre-filled</strong> with the suggested quantity.</li>
+        <li>Use <strong>Add product</strong> to include any other product from your store.</li>
+        <li>Use <strong>Add custom line</strong> for something you don't stock in Shopify yet (e.g. packaging) — these don't affect Shopify inventory.</li>
+        <li>Edit quantities, remove lines, then create the order.</li>
+      </ul>
+      <p>
+        Every order moves through a clear lifecycle:
+        <strong>Draft &rarr; Sent &rarr; Received</strong>. Mark it
+        <em>Sent</em> when you place it with the supplier, and
+        <em>Receive</em> it when the goods arrive — received quantities are
+        written back to your Shopify inventory automatically. You can export any
+        order to <strong>PDF or CSV</strong>, and delete draft or sent orders
+        (received orders are kept as a record).
+      </p>
+
+      <h2>7. Stay ahead with low-stock alerts</h2>
+      <p>
+        Once you've set an alert email in Settings, Restock Pilot emails you a
+        daily summary of products running low. You can also send a
+        <strong>test alert</strong> from Settings to confirm delivery.
+      </p>
+
+      <h2>Need help?</h2>
+      <p>
+        We're happy to help with setup or questions:<br />
+        <strong>Iluora — Restock Pilot</strong><br />
+        Email: <a href="mailto:support@iluora.com">support@iluora.com</a>
+      </p>
+
+      <div class="doc-footer">&copy; 2026 Iluora. All rights reserved.</div>
+    </main>
+  </body>
+</html>
